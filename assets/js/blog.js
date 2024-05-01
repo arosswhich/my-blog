@@ -5,3 +5,5 @@ const title2 = JSON.parse(titleStr2)
 const contentStr2 = localStorage.getItem('content')
 const content2 = JSON.parse(contentStr2)
 document.getElementById('name').innerHTML = username2;
+document.getElementById('title').innerHTML = title2;
+document.getElementById('content').innerHTML = content2;
