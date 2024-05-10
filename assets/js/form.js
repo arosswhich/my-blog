@@ -31,7 +31,7 @@
           if (posts === null) {
                posts = [];
           };
-          if (posts.length > 5) {
+          if (posts.length > 4) {
                posts.length = 0;
           }
           var username = document.getElementById('username').value;
