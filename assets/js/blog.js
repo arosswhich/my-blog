@@ -1,7 +1,5 @@
-
 let blogPost = JSON.parse(localStorage.getItem('post'));
 console.log(blogPost)
-
 if (blogPost[0]) {
     console.log('0')
     post1 = blogPost.slice(0,1)
