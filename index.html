@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/assets/css/form.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/form.css" />
     <title>My First Blog</title>
 </head>
 <body>
+    <div class="info">
      <header class = "header">
-         My First Blog
+         What's on your mind?
      </header>
+     <br><br>
         <label for="username">Username:</label>
-        <input type="text" id="username"/>
+        <br>
+        <input style='width: 500px' type="text" id="username"/>
     <br><br>   
         <label for="title">Title:</label>
-         <input type="text" id="title"/>
-    </h1>
+        <br>
+        <input style='width: 500px' type="text" id="title"/>
     <br><br>
         <label for="content">Content:</label>
-         <textarea id="content" rows="4" cols="50">Enter text here...</textarea>
+        <br>
+         <textarea style='width: 500px' id="content">Enter text here...</textarea>
     <br><br>
-    <button onclick="storeInput()" id="submit">Submit</button>
-        </body>
+    <button class='submit' onclick="storeInput()" >Submit</button>
+    </div>  
+    <img class='circle' src="/assets/css/images/circle.jpg">
+    </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="assets/js/form.js"></script>
 </html>
