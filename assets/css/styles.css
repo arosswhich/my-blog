@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+}
+#backButton {
+    background-color: white;
+    color:black
+ }
+ .lines {
+    width: 100%; 
+    border: solid 1px white;
+    color: white;
+ }
