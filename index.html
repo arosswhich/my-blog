@@ -26,15 +26,15 @@
      <br><br>
         <label for="username">Username:</label>
         <br>
-        <input type="text" id="username"/>
+        <input type="text" id="username" minlength="1" maxlength="20"/>
     <br><br>   
         <label for="title">Title:</label>
         <br>
-        <input type="text" id="title"/>
+        <input type="text" id="title" minlength="1" maxlength="20"/>
     <br><br>
         <label for="content">Content:</label>
         <br>
-         <textarea id="content">Enter text here...</textarea>
+         <textarea id="content" minlength="1" maxlength="1000">Enter text here...</textarea>
     <br><br>
     <button class='submit' onclick="storeInput()" >Submit</button>
     </div>

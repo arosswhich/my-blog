@@ -20,6 +20,7 @@ h1 {
 .content {
    margin-left: 1%;
    font-size: large;
+   overflow-wrap: break-word;
 }
 .post {
    border: solid 2px;
