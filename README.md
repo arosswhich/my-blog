@@ -15,12 +15,12 @@ Upon opening the page there are three boxes to take in user input. They are labe
 Github Repository Link: https://github.com/arosswhich/my-blog
 Deployed Website Link: https://arosswhich.github.io/my-blog/
 
-![alt text](/assets/images/indexLight.jpg)
-![alt text](/assets/images/indexDark.jpg)
-![alt text](/assets/images/blog1Light.jpg)
-![alt text](/assets/images/blog2Light.jpg)
-![alt text](/assets/images/blog1Dark.jpg)
-![alt text](/assets/images/blog2Dark.jpg)
+![alt text](assets/css/images/indexLight.png)
+![alt text](assets/css/images/indexDark.jpg)
+![alt text](assets/css/images/blog1Light.jpg)
+![alt text](assets/css/images/blog2Light.jpg)
+![alt text](assets/css/images/blog1Dark.jpg)
+![alt text](assets/css/images/blog2Dark.jpg)
 
 ## Credits
 
