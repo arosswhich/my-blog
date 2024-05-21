@@ -16,11 +16,11 @@ Github Repository Link: https://github.com/arosswhich/my-blog
 Deployed Website Link: https://arosswhich.github.io/my-blog/
 
 ![alt text](assets/css/images/indexLight.png)
-![alt text](assets/css/images/indexDark.jpg)
-![alt text](assets/css/images/blog1Light.jpg)
-![alt text](assets/css/images/blog2Light.jpg)
-![alt text](assets/css/images/blog1Dark.jpg)
-![alt text](assets/css/images/blog2Dark.jpg)
+![alt text](assets/css/images/indexDark.png)
+![alt text](assets/css/images/blog1Light.png)
+![alt text](assets/css/images/blog2Light.png)
+![alt text](assets/css/images/blog1Dark.png)
+![alt text](assets/css/images/blog2Dark.png)
 
 ## Credits
 
