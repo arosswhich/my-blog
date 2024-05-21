@@ -8,11 +8,16 @@
 </head>
 <body>
     <div class="icon">
-        <button class='changeMode' onclick="changeMode()" >
-            <img id ="sun" src="assets/css/images/sun.png" alt="switch from light mode to dark mode">
+        <link id="changeMode" rel="stylesheet" type="text/css" href="assets/css/form.css">
+        <button class='changeMode' onclick="changeMode('assets/css/styles.css')" >
+            <img id ="moon" src="assets/css/images/moon.png" alt="switch from light mode to dark mode">
+        </button>
+        <button class='changeMode' onclick="changeMode('assets/css/form.css')" >
+            <img id ="sun" src="assets/css/images/sun.png" alt="switch from dark mode to light mode">
         </button>
    </div>
-    <img id='circle' src="assets/css/images/circleLightMode.jpg">
+    <img id='circle' img src="assets/css/images/circleLightMode.jpg">
+    <img id="darkModeCircle" img src="assets/css/images/darkModeIcon.jpg">
     <hr class="lines"/>
     <div id="info">
      <header class = "header">
@@ -36,4 +41,5 @@
     </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="assets/js/form.js"></script>
+<script src="assets/js/logic.js"></script>
 </html>

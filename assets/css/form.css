@@ -35,6 +35,9 @@
     margin-top: 5%;
     margin-left: 10%;
 }
+#darkModeCircle {
+    display: none;
+}
 @media only screen and (max-width: 500px) {
     #circle {
         float: inline-start;
@@ -60,6 +63,8 @@
     }
 }
 #sun {
-    width: 10px;
-    float: left;
+    width: 10px;  
+}
+#moon {
+    width: 10px; 
 }

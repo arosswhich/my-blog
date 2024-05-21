@@ -11,3 +11,13 @@ body {
     border: solid 1px white;
     color: white;
  }
+#circle {
+    display: none;
+}
+#darkModeCircle {
+    display: inline;
+    float: left;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 10%;
+}

@@ -39,3 +39,9 @@ footer {
    background-color: rgb(0, 0, 0);
    color:white
 }
+#sun {
+   width: 10px;  
+}
+#moon {
+   width: 10px; 
+}

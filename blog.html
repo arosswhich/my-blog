@@ -7,6 +7,15 @@
     <title>My-Blog Posts</title>
 </head>
 <body>
+    <div class="icon">
+        <link id="changeMode" rel="stylesheet" type="text/css" href="assets/css/blog.css">
+        <button class='changeMode' onclick="changeMode('assets/css/styles.css')" >
+            <img id ="moon" src="assets/css/images/moon.png" alt="switch from light mode to dark mode">
+        </button>
+        <button class='changeMode' onclick="changeMode('assets/css/blog.css')" >
+            <img id ="sun" src="assets/css/images/sun.png" alt="switch from dark mode to light mode">
+        </button>
+    </div>
 <header>My-Blog</header>
 <hr class="lines">
 <hr class="lines">
@@ -49,5 +58,6 @@
 <button id="backButton" onClick="history.back()">Go Back</button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="assets/js/blog.js"></script>
+    <script src="assets/js/logic.js"></script>
 </body>
 </html>
